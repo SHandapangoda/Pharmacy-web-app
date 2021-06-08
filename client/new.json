@@ -1,0 +1,22 @@
+db.createUser(
+{
+	user: "Sithum",
+	pwd: "ss880",
+	roles:["readWrite", "dbAdmin"]
+}
+	);
+
+// like creating table in sql 
+db.createCollection();
+
+//  for inserting data
+db.customers.insert({first_name:"Sithum",last_name:"Handapangoda"});
+
+//find inventory in database
+db.customers.find();
+
+//update a query
+
+db.customers.update({first_name:"Sithum"},{$set:{age:23}});
+
+

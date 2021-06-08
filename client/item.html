@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ABC Pvt Ltd</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   
+  
+
+<div class="sidebar">
+  <a style="background-color: #909B69;" href="#home"><b>ABC Pvt Ltd</b></a>
+  <a href="admin.html">Dashboard</a>
+  <a href="employee.html">Employees</a>
+  <a href="breakdown.html">Breakdown<br> &nbsp&nbsp Maintanance</a>
+  <a href="schedule.html">Schedule<br> &nbsp&nbsp Maintanance</a>
+  <a class="active" href="#">Items</a>
+  <a href="invoice.php">Invoices</a>
+  <a href="suppliers.php">Suppliers</a>
+</div>
+
+<div class="content">
+    
+
+<div class="topnav">
+  <a href="#"><img class="image" src="business.jpg">Business</a>
+  <a href="#"><img class="image" src="user.jpg">Users</a>
+  <a href="#"><img class="image" src="support.jpg">Support</a>
+  <a href="#"><img class="image" src="Logout.png">Logout</a>
+</div>
+
+  <div class="view">
+  	<h2>Items</h2><hr>
+    <table class="table">
+      <tr>
+        <td><b>Item_ID</b></td>
+        <td><b>Item Name</b></td>
+        <td><b>Qty</b></td>
+        <td><b>Manufactured</b></td>
+        <td><b>Expiry</b></td>
+        <td><b>Type</b></td>
+        <td><b></b></td>
+      </tr>
+      
+      
+               <form action="item2.html" method="post">
+                  <tr>
+                  <td style="background-color: white; height: 60px;"></td> 
+                  <td style="background-color: white;"></td>
+                  <td style="background-color: white;"></td>
+                  <td style="background-color: white;"></td>
+                  <td style="background-color: white;"></td>
+                  <td style="background-color: white;"></td> 
+                  <input type="hidden" name="edit" value="">
+                  <td style="background-color: white; height: 60px;"><input type="submit" name="submit" value="Edit"></td>
+                  </tr>
+               </form>
+      
+    </table><br>
+    <a href="item1.html"><input type="submit" name="submit" value="Add Item"></a>
+    <br><br><br><br>
+    
+    <hr>
+    
+
+  </div>
+
+</div>
+
+</body>
+</html>

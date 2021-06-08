@@ -1,0 +1,188 @@
+
+
+
+
+.avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -10%;
+	left: calc(50% - 50px);
+}
+
+h1 {
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.loginbox p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.loginbox input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #E97262;
+	color: #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #ECF2DD;
+  position: fixed;
+  width: 1400px;
+}
+
+.image {
+	width: 20px;
+	height: 20px;
+	padding-top: 5px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #6C6E66;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #E8F5B9;
+  color: black;
+
+}
+
+.sidebar {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  font-family: arial;
+
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #E8F5B9;
+  
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #B5B6B2;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 2px;
+  height: 1500px;
+  background-color: #DCDCD0;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.view {
+	margin-top: 60px;
+	margin-left: 30px;
+   font-family: arial;
+}
+.view input[type="text"] {
+  width: 300px;
+  height: 30px;
+}
+.view input[type="submit"] {
+  outline: none;
+  height: 25px;
+  width: 80px;
+  background: #28BA0C;
+  color: white;
+  font-size: 15px;
+}
+.view input[type="reset"] {
+  outline: none;
+  height: 25px;
+  width: 80px;
+  background: #BD2807;
+  color: white;
+  font-size: 15px;
+}
+ 
+.table td {
+  border: 1px solid black;
+
+}
+
+.table {
+  width: 80%;
+  border-collapse: collapse;
+
+}
+
+
