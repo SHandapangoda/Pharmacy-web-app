@@ -1,5 +1,7 @@
 let medic
 
+
+// access database
 export default class AccessData{
     static async insertDB(conn){
         if(medic){
